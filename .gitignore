@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.egg-info/
+
+# IDE / local tooling
+.idea/
+.vscode/
+
+# Secrets / local environment
+.env
+.env.*
+*.pem
+*.key
+
+# Caches and OS files
+.DS_Store
+Thumbs.db
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# Generated artifacts (keep the repository small)
+artifacts/*
+artifacts_test/
+*.joblib
+*.pkl
+
+# Local result capture (curated snapshots live in docs/results/)
+/final_results.txt
+
+# Optional: ship only the small demo model for a zero-setup hybrid demo
+# !artifacts/pit_risk_logreg.joblib

@@ -1,0 +1,2 @@
+model,threshold,num_pits,valid_assignments,exact_vault_pit_prob,model_vault_pit_prob,outcome,gold,score
+artifacts/pit_risk_logreg.joblib,0.6,3,13,0.7692307692307693,0.970930324839432,escaped_without_gold,False,-10

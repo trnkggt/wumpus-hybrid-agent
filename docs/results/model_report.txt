@@ -1,0 +1,17 @@
+Dataset: artifacts/frontier_dataset.csv
+Model:   artifacts/pit_risk_logreg.joblib
+
+Confusion matrix:
+[[1539  364]
+ [   0  406]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.81      0.89      1903
+           1       0.53      1.00      0.69       406
+
+    accuracy                           0.84      2309
+   macro avg       0.76      0.90      0.79      2309
+weighted avg       0.92      0.84      0.86      2309
+

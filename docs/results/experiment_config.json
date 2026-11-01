@@ -1,0 +1,9 @@
+{
+  "worlds": 2000,
+  "seed": 2025,
+  "model": "artifacts/pit_risk_logreg.joblib",
+  "max_steps": 100,
+  "risk_threshold": 0.6,
+  "utility_floor": -8.0,
+  "elapsed_seconds": 4.55
+}

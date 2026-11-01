@@ -1,0 +1,6 @@
+model,threshold,vault_pit_prob,outcome,gold,score
+baseline,,,escaped_without_gold,False,-10
+logreg,0.6,0.970930324839432,escaped_without_gold,False,-10
+tree,0.6,0.9378505031881381,escaped_without_gold,False,-10
+random_forest,0.6,0.9383811081759785,escaped_without_gold,False,-10
+gradient_boosting,0.6,0.8066853827729009,escaped_without_gold,False,-10
